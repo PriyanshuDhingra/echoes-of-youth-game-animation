@@ -1,0 +1,40 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor / temp files
+*.swp
+*.tmp
+*.bak
+*.orig
+*.rej
+*~
+*.autosave
+
+# Maya project folders and generated caches
+autosave/
+cache/
+clips/
+movies/
+renderData/
+scenes/edits/
+scenes/incrementalSave/
+Time Editor/
+**/.mayaSwatches/
+**/mayaSwatches/
+**/autosave/
+**/cache/
+**/renderData/
+**/clips/
+**/movies/
+**/sound/
+
+# Large generated assets (keep only the intentional project files)
+**/*.tmp
+**/*.backup
+**/*.swatch
+
+# Python/IDE metadata (not needed here)
+__pycache__/
+.vscode/

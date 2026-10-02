@@ -31,7 +31,6 @@ This project focuses on:
 ## Included Assets
 
 - `21IT3022(Priyanshu Dhingra)_GVC_Project.mb` — Main Maya scene file
-- `21IT3022(Priyanshu Dhingra)_GVC_Project_PPT.pptx` — Project presentation deck
 - `21IT3022(Priyanshu Dhingra)_GVC_Project_Video.mp4` — Final project showcase video
 - `Objects/` — Exported FBX model assets
 - `Kratos_Textures/` — Character texture set
@@ -45,7 +44,6 @@ This project focuses on:
 ```text
 .
 ├── 21IT3022(Priyanshu Dhingra)_GVC_Project.mb
-├── 21IT3022(Priyanshu Dhingra)_GVC_Project_PPT.pptx
 ├── 21IT3022(Priyanshu Dhingra)_GVC_Project_Video.mp4
 ├── Objects/
 ├── Kratos_Textures/

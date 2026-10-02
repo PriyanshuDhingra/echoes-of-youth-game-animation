@@ -80,7 +80,6 @@ The presentation also explains the stages of the rendering pipeline:
 ```text
 .
 ├── 21IT3022(Priyanshu Dhingra)_GVC_Project.mb
-├── 21IT3022(Priyanshu Dhingra)_GVC_Project_PPT.pptx
 ├── 21IT3022(Priyanshu Dhingra)_GVC_Project_Video.mp4
 ├── Objects/
 ├── Kratos_Textures/

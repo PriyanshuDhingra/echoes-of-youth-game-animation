@@ -1,6 +1,6 @@
 # Graphics and Visual Computing Project - Animating God of War Game Scene
 
-This project is a 3D character and environment study created in Autodesk Maya, inspired by the visual language of God of War. The repository includes the main Maya scene, textured assets, exported FBX models, presentation slides, and the final gameplay-focused animation video.
+This project is a 3D character and environment study created in Autodesk Maya, inspired by the visual language of God of War. The repository includes the main Maya scene, textured assets, exported FBX models, and the final gameplay-focused animation video.
 
 ## Project Overview
 

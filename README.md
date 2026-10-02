@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/2e47d185-cb48-4ce7-9f30-f690cc37866f
+
 # Echoes of Youth: Animating a Game Scene in Maya
 
 **Graphics and Visual Computing (GVC) Project**

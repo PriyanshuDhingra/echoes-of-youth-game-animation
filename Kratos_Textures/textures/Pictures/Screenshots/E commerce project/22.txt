@@ -1,1 +1,0 @@
-First we need to close the previous terminal and start new terminal for it to work

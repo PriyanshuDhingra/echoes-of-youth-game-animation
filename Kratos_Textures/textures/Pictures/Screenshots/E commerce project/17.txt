@@ -1,3 +1,0 @@
-Now we need to create the HTML File. We will do that in view/pages folder
-
-But we will give ejs as extension instead of html as ejs is now being used as view engine.

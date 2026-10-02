@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task T1</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      h1 {
+        color: blue;
+        text-align: center;
+      }
+      input[type="text"] {
+        padding: 10px;
+        font-size: 16px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: lightgray;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        background-color: lightgray;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Shopping List</h1>
+    <input type="text" id="item-input" placeholder="Add item">
+    <button id="add-button">Add</button>
+    <ul id="shopping-list"></ul>
+  </body>
+  <script>
+
+    const shoppingListModel = {
+      items: [],
+      addItem: function(item) {
+        this.items.push(item);
+      }
+    };
+
+    const shoppingListView = {
+      render: function(model) {
+        const shoppingList = document.getElementById("shopping-list");
+        shoppingList.innerHTML = "";
+        for (let i = 0; i < model.items.length; i++) {
+          const item = model.items[i];
+          const li = document.createElement("li");
+          li.innerHTML = item;
+          shoppingList.appendChild(li);
+        }
+      }
+    };
+
+    const shoppingListController = {
+      model: shoppingListModel,
+      view: shoppingListView,
+      addItem: function() {
+        const input = document.getElementById("item-input");
+        const item = input.value;
+        this.model.addItem(item);
+        this.view.render(this.model);
+        input.value = "";
+      }
+    };
+
+    const addButton = document.getElementById("add-button");
+    addButton.addEventListener("click", function() {
+      shoppingListController.addItem();
+    });
+  </script>
+</html>

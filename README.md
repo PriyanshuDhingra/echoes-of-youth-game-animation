@@ -86,5 +86,3 @@ This project is shared for educational, academic, and portfolio purposes.
 
 ---
 
-This repository is prepared for GitHub publishing with large media files supported through Git LFS.
-
